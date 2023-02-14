@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/><!--esta etiqueta permite entender caracteres especiales-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!---->
+    <meta name="description" content="esta parte es la que suele ir debjo del titulo de paginas en la zona de busqueda">
+    <meta name="robots" content="index, follow"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>aqui va el titulo que aparece en las pestañas</title>
+</head>
+<body>
+    <header><!--el header es la parte superior de la pagina-->
+        <nav></nav><!--el nav se encarga de la barra de navegación-->
+    </header>
+    <main>
+        <section>
+            <article> <!--esta seccion va para los parrafos o articulos-->
+
+            </article>
+        </section>
+        <ul><!--lista desordenada-->
+
+        </ul>
+        <ol></ol><!--lista ordenada-->
+
+    </main>
+    <footer><!--esta es la parte baja de una pagina-->
+    </footer>
+
+    <p>soy un parrafo</p>
+    <h1>soy un titulo</h1>
+    <a href="#">soy un link</a>
+
+    <div class="etiqueta de video">
+        <video  controls preload="auto">
+            <source  src="#"> <!--source permite cargar otros tipos de archivos para que reproduzca en caso el navegador no pueda reproducir uno-->
+            <source  src="#t=10,60"> <!--#t=10,60 con esto se puede especificar un momento exacto del video al cargar la pagina basado en horas y minutos-->
+        </video>
+    </div> 
+
+    <form action="">
+        <label for="nombre">
+            <span>cual es tu nombre</span>
+            <input type="text" id="nombre" autocomplete="name" required>
+        </label>
+        <label for="fecha">
+            <span>cuando es tu cumpleaños</span>
+            <input type="date" id="fecha">
+        </label>
+        <label for="hora">
+            <span>que hora es</span>
+            <input type="time" id="hora">
+        </label>
+        <input type="submit">
+    </form>
+
+    <select name="cursos" id="">
+        <option value="Estática">Estática</option>
+        <option value="Dinámica">Dinámica</option>
+        <option value="Termodinámica">Termodinámica</option>
+        <option value="Mecanica_de_Fluidos">Mecánica de Fluidos</option>
+    </select>
+
+    <input list="cursos">
+    <datalist id="cursos">
+        <option value="Estática"></option>
+        <option value="Dinámica"></option>
+        <option value="Termidinámica"></option>
+    </datalist>
+    
+</body>
+</html>
