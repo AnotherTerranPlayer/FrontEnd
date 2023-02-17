@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ section img{
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+ }
+
+
+
+ section span p:nth-child(2){
+    width: 410px;
+    height: 300px;
+    margin-top: 10px;
+ }
+ section span p:nth-child(1){
+    margin-top: 10px;
+    font-weight: bold;
+ }
+ 
