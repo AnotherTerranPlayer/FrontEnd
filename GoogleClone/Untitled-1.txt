@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Untitled-1.css">
+    <title>GoogleClone</title>
+</head>
+<body>
+    <header>
+        <a href="#">Gmail</a>
+        <a href="#">Imágenes</a>
+        <figure>
+            <button type="button"><img src="./Captura1.PNG" alt="adds"></button>
+            <button type="button"><img src="./Captura2.PNG" alt="account"></button>
+        </figure>
+    </header>
+    <main>
+        <figure>
+            <img src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png" alt="Google-logo">
+        </figure>    
+        <form action="">
+            <label for="search">
+                <input type="text" id="search" autocomplete="" >
+            </label>
+            <div>
+                <button type="button"><img src="https://cdn.imgbin.com/7/13/0/imgbin-microphone-google-voice-google-search-google-logo-microphone-blue-red-and-yellow-google-voice-logo-R5bs6FT03U3fPnzrhMpXDAS6j.jpg" alt="" class="microfono"></button>
+                <button type="button"> <img src="https://play-lh.googleusercontent.com/UEhZQtc_3LCwkKIayRjHG63EfC9bsXvJjuWiFMvVRAe_tHyk0pW4ZmCBJQCENxmYlYk=w600-h300-pc0xffffff-pd" alt="" class="camara"></button>
+            </div>
+            
+        </form>
+        <section>
+            <div>
+                <button type="button">Buscar con Google</button>
+                <button type="button">Voy a tener suerte</button>
+            </div>
+            
+            <span>
+                <p>Ofrecido por Google en: <a href="#">Quechua</a></p>
+            </span>
+        </section>
+    </main>
+    <footer class="pais">
+        <span><p>Perú</p></span>
+    </footer>
+    <footer class="terminos">
+        <span>
+            <ul>
+                <li> <a href="#"> Sobre Google</a></li>
+                <li> <a href="#">Publicidad</a> </li>
+                <li> <a href="#">Negocios</a> </li>
+                <li> <a href="#">Cómo funciona Google</a> </li>
+            </ul>
+        </span>
+        <span>
+            <ul>
+                <li> <a href="">Privacidad</a> </li>
+                <li> <a href="">Condiciones</a> </li>
+                <li> <a href="">Preferencias</a> </li>
+            </ul>
+        </span>
+    </footer>
+    
+</body>
+</html>

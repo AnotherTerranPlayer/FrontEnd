@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+header a:hover{
+    text-decoration:underline;
+}
+
+header button{
+    border: none;
+    background-color: white;
+}
+
+header figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+header figure button:nth-child(1){
+    margin-bottom: 6px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+header figure button:nth-child(2){
+    cursor: pointer;
+}
+
+
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main figure img{
+    width: 350px;
+    height: 188px;
+}
+main form{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main form div button{
+    border: none;
+}
+.microfono{
+    width: 20px;
+    height: 28px;
+
+}
+.camara {
+    width: 50px;
+    height: 30px;
+    background-color:rgb(255, 255, 255);
+ 
+}
+
+main form:hover{
+    box-shadow: 0 0 5px rgba(150, 53, 53, 0.5);
+}
+
+main form label input{
+    width: 490px;
+    margin-left: 10px;
+    border: none;
+}
+main form label input:focus{
+    outline: none;
+}
+
+.microfono, .camara:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(150, 53, 53, 0.5);
+}
+
+
+
+form{
+    width: 582px;
+    height: 44px;
+    background-color: white;
+    border-radius: 20px ;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid;
+    border-color: rgb(172, 172, 172);
+}
+
+
+
+section{
+    width: 100%;
+}
+
+section span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ section div button{
+   
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 153px;
+    height: 36px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    color: rgb(117, 116, 116);
+    cursor: pointer;
+}
+
+section div button:hover{
+    border: 1px solid rgb(136, 136, 136);
+
+
+}
+
+
+section span a{
+    text-decoration: none;  
+}
+
+section span a:hover{
+    text-decoration: underline;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+
+.pais{
+    margin-top:175px;  
+    width:100%;
+    background-color:rgb(236, 235, 235);
+
+    
+}
+.pais span{
+    margin-top:13px;
+    margin-bottom: 13px;
+    margin-left: 33px;
+    color:rgb(117, 116, 116)  ;
+}
+
+.terminos{
+    background-color: rgb(236, 235, 235);
+}
+.terminos span ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    margin:13px;
+    
+}
+.terminos span ul li{
+    margin-right: 25px;
+    margin-left: 15px;
+   
+    
+}
+
+.terminos span ul li a{
+    text-decoration: none;
+    color:rgb(117, 116, 116) ;
+}
+
+.terminos span ul li a:hover{
+    text-decoration: underline;
+}
